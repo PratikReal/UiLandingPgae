@@ -1,0 +1,253 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    
+}
+
+nav{
+    width: 68%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 12%;
+    line-height: 70px;
+    font-family: 'PT Sans', sans-serif;
+    
+    left: 8%;
+}
+
+nav ul{
+    list-style: none;
+    width: 420px;
+    color: rgb(255, 203, 203);
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+nav h2{
+    margin-left: 50px;
+    font-size: 30px;
+    font-family: 'Leckerli One', cursive;
+    color: #ff244cd0;
+
+}
+
+li button{
+    position: absolute;
+    top: 100%;
+}
+
+
+#btn{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
+
+#back{
+    width: 100%;
+    height: 100%;
+    background-image: url('logoweb1.jpg');
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#back h1{
+    position: relative;
+    top: 200px;
+    left: 150px;
+    font-family: 'Catamaran', sans-serif;
+    color: #c51a39;
+}
+
+#back h3{
+    position: relative;
+    top: 185px;
+    font-size: 30px;
+    left: 150px;
+    font-family: 'Catamaran', sans-serif;
+    color: #c51a39;
+}
+
+
+
+#back p{
+    position: relative;
+    font-family: 'PT Sans', sans-serif;
+
+    
+    top: 200px;
+    left: 150px;
+}
+
+#back button{
+    padding: 10px 45px;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    font-family: 'Catamaran', sans-serif;
+
+    top: 230px;
+    left: 150px;
+    background-color: white;
+    box-shadow: 1px 1px 20px black;
+}
+
+#logo{
+    width: 42px;
+    height: 42px;
+    background:radial-gradient(rgba(255, 32, 24, 0.945),rgb(253, 2, 44));
+    border-radius: 50%;
+    position: relative;
+    top: 188px;
+    left: 330px;
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+    padding: 9px 9px;
+
+}
+
+#logob{
+    width: 35px;
+    height: 35px;
+    background:radial-gradient(rgba(82, 243, 90, 0.685),rgb(8, 190, 1));
+    border-radius: 50%;
+    position: relative;
+    top: 25px;
+    left: 77px;
+}
+
+
+#logoc{
+    width: 35px;
+    height: 35px;
+    background:radial-gradient(rgba(252, 28, 184, 0.685),rgb(97, 1, 60));
+    border-radius: 50%;
+    position: relative;
+    top: 245px;
+    left: 1000px;
+}
+
+
+#photo{
+    width: 220px;
+    height: 350px;
+        background-size: cover;
+        background-image: url('ok.png');
+    position: absolute;
+    top: 170px;
+    left: 720px;
+}
+
+#photoa{
+    width:73%;
+    height: 30px;
+    background-color: rgb(226, 218, 218);
+    position: relative;
+    top: 14px;
+    left: 28px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: none;
+}
+
+#photoaa{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(61, 60, 60);
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+    left: 40px;
+}
+
+#photoab{
+    width: 60px;
+    height: 5px;
+    background-color: rgb(61, 61, 61);
+    border-radius: 15px;
+    position: relative;
+    top: 3px;
+    left: 60px;
+}
+
+#photoinfo{
+    width: 158px;
+    height: 130px;
+    background-image: url('food.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 43px;
+    left: 30px;
+}
+
+#photocontain
+{
+    width: 163px;
+    height: 130px;
+    background-color:rgb(236, 236, 240);
+    position: absolute;
+    top: 173px;
+    left: 30px;
+    padding: 7px;
+}
+
+
+#photocontain h4{
+    padding-bottom: 1px;
+    color: rgb(31, 22, 22);
+
+}
+
+#photocontain h5 {
+    padding-bottom: 3px;
+    color: rgb(59, 58, 58);
+    font-family: 'Catamaran', sans-serif;
+
+    
+}
+
+#photocontain h6{
+    font-size: 12px;
+    color: rgb(48, 36, 36);
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+#photob{
+    width:73%;
+    height: 35px;
+    background-color: rgb(226, 218, 218);
+    position: relative;
+    top: 272px;
+    left: 29px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+}
+
+#photoba
+{
+    width: 35px;
+    height: 35px;
+    background-color:white;
+    border-radius: 50%;
+    position: relative;
+    left: 60px;
+    border: 1px solid rgb(155, 134, 134);
+    top: 2px;
+}
+
+
+    
